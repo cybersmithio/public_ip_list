@@ -18,11 +18,6 @@
 
 import ipaddress
 import argparse
-import json
-import netaddr
-import string
-import os
-import sys
 
 ###############################################
 # CODE BELOW HERE - NOTHING TO CHANGE BY USER #
