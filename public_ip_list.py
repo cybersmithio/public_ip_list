@@ -41,11 +41,8 @@ def displayRemainingPublicIPs(DEBUG,iplist):
             cidrlist.append(ipaddress.ip_network(i.strip(),strict=False))
 
     cidrlist.append(ipaddress.ip_network("10.0.0.0/8"))
-    cidrlist.append(ipaddress.ip_network("169.254.0.0/16"))
-    cidrlist.append(ipaddress.ip_network("127.0.0.0/8"))
     cidrlist.append(ipaddress.ip_network("192.168.0.0/16"))
     cidrlist.append(ipaddress.ip_network("172.16.0.0/12"))
-    cidrlist.append(ipaddress.ip_network("224.0.0.0/3"))
 
     if DEBUG:
         print("\n\n")
